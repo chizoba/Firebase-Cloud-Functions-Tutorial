@@ -11,7 +11,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.github.chizoba.firebasecloudfunctions.MainActivity">
+    tools:context="com.github.chizoba.firebasecloudfunctions.MainActivity"
+    android:background="#dadada">
 
 
     <android.support.v7.widget.CardView
@@ -39,7 +40,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/data_title"
+                    android:id="@+id/title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Title" />
@@ -47,15 +48,15 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/data_body_input_layout"
+                android:id="@+id/data_message_input_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/data_body"
+                    android:id="@+id/message"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Body" />
+                    android:hint="Message" />
 
             </android.support.design.widget.TextInputLayout>
 

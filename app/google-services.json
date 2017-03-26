@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "350473795685",
+    "firebase_url": "https://fir-cloud-function-tuts.firebaseio.com",
+    "project_id": "fir-cloud-function-tuts",
+    "storage_bucket": "fir-cloud-function-tuts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350473795685:android:eb0c9f63ec9cc97c",
+        "android_client_info": {
+          "package_name": "com.github.chizoba.firebasecloudfunctions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350473795685-mggo30339i0tdrt1ibkr4rddjt6s39e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEHffaQ2U5QIayQufUyKeoRxIwMXFgd8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
