@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        // Handle possible data accompanying notification message.
         if (getIntent().getExtras() != null) {
             for (String key : getIntent().getExtras().keySet()) {
                 if (key.equals("title")) {
