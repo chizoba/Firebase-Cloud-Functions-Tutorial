@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Firebase-Cloud-Functions-Tutorial.iml" filepath="$PROJECT_DIR$/Firebase-Cloud-Functions-Tutorial.iml" group="Firebase-Cloud-Functions-Tutorial" />
+      <module fileurl="file://$PROJECT_DIR$/app/Firebase-Cloud-Functions-Tutorial-app.iml" filepath="$PROJECT_DIR$/app/Firebase-Cloud-Functions-Tutorial-app.iml" group="Firebase-Cloud-Functions-Tutorial/app" />
       <module fileurl="file://$PROJECT_DIR$/FirebaseCloudFunctions.iml" filepath="$PROJECT_DIR$/FirebaseCloudFunctions.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

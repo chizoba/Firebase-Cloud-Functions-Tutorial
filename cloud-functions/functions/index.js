@@ -16,12 +16,12 @@ admin.initializeApp(functions.config().firebase);
 //   });
 // });
 
-exports.pushNotification = functions.database.ref('/messages/{pushId}').onWrite( event => {
+exports.pushNotification = functions.database.ref('/messages/{pushId}').onWrite( (change, event) => {
 
     console.log('Push notification event triggered');
 
     //  Grab the current value of what was written to the Realtime Database.
-    var valueObject = event.data.val();
+    var valueObject = change.after.val();
         
     const payload = {
         notification: {

@@ -1,7 +1,7 @@
 package com.github.chizoba.firebasecloudfunctions;
 
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference("messages");
 
-        title = (EditText) findViewById(R.id.title);
-        message = (EditText) findViewById(R.id.message);
+        title = findViewById(R.id.title);
+        message = findViewById(R.id.message);
 
     }
 
