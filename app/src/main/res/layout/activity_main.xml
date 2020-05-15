@@ -43,6 +43,8 @@
                     android:id="@+id/title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
                     android:hint="Title" />
 
             </android.support.design.widget.TextInputLayout>
@@ -56,6 +58,8 @@
                     android:id="@+id/message"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
                     android:hint="Message" />
 
             </android.support.design.widget.TextInputLayout>
